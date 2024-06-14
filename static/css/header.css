@@ -1,0 +1,32 @@
+header {
+    background-color: var(--primary-color);
+    height: 60px;
+    position: sticky;
+    top: 0px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+/*left side*/
+.logo {
+    width: 20%;
+}
+
+/*right side*/
+.nav-menu {
+    width: 80%;
+}
+
+.nav-menu a {
+    color: var(--neutral-color);
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 2%;
+    padding: 1% 2%;
+}
+
+.nav-option {
+    width: 100%;
+}

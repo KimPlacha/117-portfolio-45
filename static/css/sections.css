@@ -1,0 +1,84 @@
+.about-section {
+    padding: 2rem;
+}
+
+.about-img-container {
+    width: 30%;
+}
+
+.about-img-container img {
+    width: 60%;
+}
+
+.about-description-container {
+    width: 70%;
+}
+
+.about.description-container p {
+    margin: 2rem 0;
+    width: 80%;
+}
+
+.label-list {
+    width: 70%;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+/*Projects Section*/
+.projects-section {
+    padding: 2%;
+}
+.project-card {
+    background-color: pink;
+    width:25rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    border-radius: 1%;
+}
+
+
+.project-card:hover {
+    opacity: 0.5;
+    border: solid 1px var(--primary-color-100);
+}
+.project-card img {
+    width: 100%;
+}
+
+.skills-list {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap:1rem;
+    margin-top: 0.5rem;
+}
+
+a p:nth-child(2){
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin: 0.5rem 0px;
+    color: var(--secondary-color-600);
+}
+
+a p:nth-child(3){
+    font-style: italic;
+
+}
+a p:nth-child(4) {
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+}
+
+.projects-list {
+    margin: 2rem 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    width: 100%;
+    
+}
